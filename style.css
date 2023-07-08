@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Montserrat:wght@700&display=swap');
+
+body{
+    margin: 0%;
+    background-color: blue;
+    color: whitesmoke;
+    color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+     padding-left: 8%;
+     color: whitesmoke;
+     font-weight: bold;
+     font-size: 7vmax;
+     font-family: 'Caveat', 'cursive','Montserrat', sans-serif;;
+
+}
+
+.calendar{
+    background-color: white;
+   border: 2px solid black;
+   border-radius: 10px;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: large;
+   font-size: 30px;
+   width: 300px;
+   text-align: center;
+   box-shadow: 0 5px 8px 6px;
+}
+
+.months{
+    margin: 0;
+    font-family:cursive;
+    background-color: orange;
+    font-style: normal;
+    font-size:6vmax;
+   font-weight: bold;
+    padding: 10px;
+}
+
+.no-week{
+    padding:10px;
+    font-family: cursive;
+    color: gray;
+    font-size: 4vmax;
+    font-weight: bold;
+}
+
+.no-date{
+    margin: 25px;
+    font-size:12vmax;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.years{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 4vmax;
+}
